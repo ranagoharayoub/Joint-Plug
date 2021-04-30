@@ -1,4 +1,5 @@
 import React from 'react'
+import ProdCard from '../Components/ProdCard'
 import './HomePage.css'
 
 function HomePage() {
@@ -27,6 +28,16 @@ function HomePage() {
             <div>
                 <p className='new-to'>New to JointPlug?</p>
                 <p className='our-state'>Our state of the art e-commerce for Merujuana delivery is built on peer to peer voting system, vetting both businesses and customers. Tracking system allows you to identify what stage your order is on. Securtiy is key for both our vendors and customers so we strictly enforce proper vetting.</p>
+            </div>
+            <div className='home-prod'>
+                <div className='our-prod'>
+                    <p>OUR PRODUCTS</p>
+                </div>
+                <div className='home-cards'>
+                    <ProdCard></ProdCard>
+                    <ProdCard></ProdCard>
+                    <ProdCard></ProdCard>
+                </div>
             </div>
             <div className='back-img'>
                 <div className='let-box'>
