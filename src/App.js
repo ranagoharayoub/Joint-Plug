@@ -11,10 +11,13 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <Router>
+      <Navbar></Navbar>
       <Switch>
         <Route path='/' exact component={HomePage}></Route>
         <Route path='/join' component={Join}></Route>
@@ -24,6 +27,7 @@ function App() {
         <Route path='/news' component={News}></Route>
         <Route path='/addbusiness' component={AddBusiness}></Route>
       </Switch>
+      <Footer></Footer>
     </Router>
   );
 }

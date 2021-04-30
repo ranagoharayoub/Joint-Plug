@@ -1,0 +1,311 @@
+.maindiv {
+  min-height: 870px;
+  width: 684px;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: #6f9c82;
+  width: 100%;
+  height: 46.4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.entity {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.3px;
+  line-height: 26.4px;
+  color: white;
+  margin-left: 10px;
+}
+.text {
+  width: 372px;
+  height: 19.2px;
+}
+p {
+  font-size: 18px;
+  line-height: 19.8px;
+  font-weight: 500;
+  color: rgb(68, 97, 82);
+  margin-left: 10px;
+}
+.formblock {
+  width: 366px;
+  height: 760px;
+  border: solid #dddddd 1px;
+  padding: 15px 15px 15px 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+.username {
+  font-family: "Raleway", sans-serif;
+  font-weight: 15px;
+  line-height: 21.42px;
+  color: #848383;
+  margin-bottom: 5px;
+}
+.userbox {
+  width: 340px;
+  height: 34px;
+  border-radius: 5px;
+  border: solid #cccccc 1px;
+  padding: 6px 12px 6px 12px;
+  margin-bottom: 15px;
+}
+.email {
+  font-family: "Raleway", sans-serif;
+  font-weight: 15px;
+  line-height: 21.42px;
+  color: #848383;
+  margin-bottom: 5px;
+}
+.emailbox {
+  width: 340px;
+  height: 34px;
+  border-radius: 5px;
+  border: solid #cccccc 1px;
+  padding: 6px 12px 6px 12px;
+  margin-bottom: 15px;
+}
+.password {
+  font-family: "Raleway", sans-serif;
+  font-weight: 15px;
+  line-height: 21.42px;
+  color: #848383;
+  margin-bottom: 5px;
+}
+.passwordbox {
+  width: 340px;
+  height: 34px;
+  border-radius: 5px;
+  border: solid #cccccc 1px;
+  padding: 6px 12px 6px 12px;
+  margin-bottom: 15px;
+}
+.zip {
+  font-family: "Raleway", sans-serif;
+  font-weight: 15px;
+  line-height: 21.42px;
+  color: #848383;
+  margin-bottom: 5px;
+}
+.zipbox {
+  width: 340px;
+  height: 34px;
+  border-radius: 5px;
+  border: solid #cccccc 1px;
+  padding: 6px 12px 6px 12px;
+  margin-bottom: 15px;
+}
+.birthday {
+  font-family: "Raleway", sans-serif;
+  font-weight: 50px;
+  line-height: 21.42px;
+  color: #848383;
+  margin-bottom: 5px;
+}
+.month {
+  width: 113.3px;
+  height: 34px;
+  border-radius: 5px;
+  border: solid #cccccc 1px;
+  padding: 6px 12px 6px 12px;
+  margin-bottom: 15px;
+  margin-right: 8.7px;
+}
+.day {
+  width: 113.3px;
+  height: 34px;
+  border-radius: 5px;
+  border: solid #cccccc 1px;
+  padding: 6px 12px 6px 12px;
+  margin-bottom: 15px;
+  margin-right: 8.7px;
+}
+.year {
+  width: 113.3px;
+  height: 34px;
+  border-radius: 5px;
+  border: solid #cccccc 1px;
+  padding: 6px 12px 6px 12px;
+  margin-bottom: 15px;
+}
+.newsletter {
+  font-family: "Raleway", sans-serif;
+  font-weight: 15px;
+  line-height: 21.42px;
+  color: #848383;
+  margin-bottom: 5px;
+}
+.newspara {
+  font-family: "Raleway", sans-serif;
+  font-size: 9.75px;
+  line-height: 14.62px;
+  color: black;
+  margin-bottom: 5px;
+}
+.phonenumber {
+  font-family: "Raleway", sans-serif;
+  font-weight: 15px;
+  line-height: 21.42px;
+  color: #848383;
+  margin-bottom: 5px;
+}
+.phonebox {
+  width: 340px;
+  height: 34px;
+  border-radius: 5px;
+  border: solid #cccccc 1px;
+  padding: 6px 12px 6px 12px;
+  margin-bottom: 15px;
+}
+.register {
+  width: 366px;
+  height: 34px;
+  background-color: #96d196;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.register:hover {
+  background-color: #6f9c82;
+}
+.member {
+  width: 250px;
+  height: 85.2;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.combined {
+  display: flex;
+}
+.loginbox {
+  width: 250px;
+  height: 85.2px;
+  border: solid #dddddd 1px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.logintext {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19.8px;
+  color: #446152;
+  margin: 10px auto;
+}
+.loginbtn {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: #5bc0de;
+  width: 154px;
+  height: 34px;
+  margin: 0px auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.socialtxt {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19.8px;
+  margin-top: 10px;
+  color: #446152;
+}
+.socialbtn1 {
+  width: 100%;
+  background-color: #5972a8;
+  height: 34px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: larger;
+  font-family: "Raleway", sans-serif;
+}
+.socialbtn1:hover {
+  background-color: darkblue;
+}
+.socialbtn2 {
+  width: 100%;
+  background-color: #6fb9f1;
+  height: 34px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: larger;
+  font-family: "Raleway", sans-serif;
+}
+.socialbtn2:hover {
+  background-color: skyblue;
+}
+.socialbtn3 {
+  width: 100%;
+  background-color: #e26752;
+  height: 34px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: larger;
+  font-family: "Raleway", sans-serif;
+}
+.socialbtn3:hover {
+  background-color: red;
+}
+.tos {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19.8px;
+  color: #446152;
+  text-decoration: underline;
+}
+.para1 {
+  font-family: "Raleway", sans-serif;
+  margin: 0px 0px;
+}
+.l1 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 8px;
+  text-justify: auto;
+}
+.l2 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 8px;
+  text-justify: auto;
+}
+.l3 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 8px;
+  text-justify: auto;
+}
+.l4 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 5px;
+  text-justify: auto;
+}

@@ -1,0 +1,97 @@
+.nav-cont{
+    height: 130px;
+    width: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper-nav{
+    height: 37px;
+    width: 100%;
+    background-color: #5FBDAF;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+.login-register{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    line-height: 18.5px;
+    color: white;
+    margin-right: 10%;
+}
+
+.lower-nav{
+    flex: 1;
+    width: 85%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+.left-nav{
+    width: 40%;
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.left-nav>p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    line-height: 20px;
+    color: #55516a;
+}
+
+.center-nav{
+    width: 20%;
+    height: 100%;
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.right-nav{
+    width: 40%;
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.right-nav>p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    line-height: 20px;
+    color: #55516a;
+}
+
+.right-nav>p:hover{
+    color: #7698A1;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 0px;
+    transition: 1000ms;
+}
+
+.left-nav>p:hover{
+    color: #7698A1;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 0px;
+    transition: 1000ms;
+       
+}
+
