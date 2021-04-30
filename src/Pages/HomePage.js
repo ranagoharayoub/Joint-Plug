@@ -34,9 +34,29 @@ function HomePage() {
                     <p>OUR PRODUCTS</p>
                 </div>
                 <div className='home-cards'>
-                    <ProdCard></ProdCard>
-                    <ProdCard></ProdCard>
-                    <ProdCard></ProdCard>
+                    <div className='home-cards-sec'>
+                        <ProdCard></ProdCard>
+                        <ProdCard></ProdCard>
+                        <ProdCard></ProdCard>
+                    </div>
+                    <div className='browse-sec'>
+                         <button className='browse-btn'>Browse More</button>
+                    </div>
+                </div>
+            </div>
+            <div className='home-prod'>
+                <div className='our-prod'>
+                    <p>NEWS & EVENTS</p>
+                </div>
+                <div className='home-cards'>
+                    <div className='home-cards-sec'>
+                        <ProdCard></ProdCard>
+                        <ProdCard></ProdCard>
+                        <ProdCard></ProdCard>
+                    </div>
+                    <div className='browse-sec'>
+                         <button className='browse-btn'>Browse More</button>
+                    </div>
                 </div>
             </div>
             <div className='back-img'>
