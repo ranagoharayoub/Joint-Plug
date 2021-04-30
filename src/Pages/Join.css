@@ -1,17 +1,23 @@
 .maindiv {
   min-height: 870px;
-  width: 684px;
+  width: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 header {
   background-color: #6f9c82;
   width: 100%;
   height: 46.4px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
+
+header>h2{
+  text-align: center;
+}
+
 .entity {
   background: none;
   border: none;

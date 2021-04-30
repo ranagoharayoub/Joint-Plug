@@ -6,7 +6,7 @@ function Join() {
         <div className="maindiv">
             <header>
                 <h2>LOGIN/REGISTER</h2>
-                <button className="entity">x</button>
+                {/* <button className="entity">x</button> */}
             </header>
             <div className="text">
                 <p>SIGN UP</p>
