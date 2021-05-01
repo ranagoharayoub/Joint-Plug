@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Join.css'
 
 function Join() {
@@ -121,7 +122,7 @@ function Join() {
                 <div className="member">
                     <div className="loginbox">
                         <div className="logintext">Already Member?</div>
-                        <button className="loginbtn">Sign In</button>
+                        <Link to ='/login' ><button className="loginbtn">Sign In</button></Link>
                     </div>
                     <div className="socialtext">
                         <p className="socialtxt">OR</p>

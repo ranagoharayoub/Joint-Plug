@@ -1,3 +1,6 @@
+*{
+  border: none;
+}
 .maindiv {
   min-height: 870px;
   width: auto;
@@ -6,7 +9,7 @@
   align-items: center;
 }
 header {
-  background-color: #6f9c82;
+  background-color: #5FBDAF;
   width: 100%;
   height: 46.4px;
   display: flex;
@@ -38,8 +41,9 @@ h2 {
 .text {
   width: 372px;
   height: 19.2px;
+  margin-top: 20px;
 }
-p {
+.text>p {
   font-size: 18px;
   line-height: 19.8px;
   font-weight: 500;
@@ -186,6 +190,7 @@ p {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
+  
 }
 .register:hover {
   background-color: #6f9c82;
@@ -206,6 +211,7 @@ p {
   background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
+  align-items: center;
   border-radius: 5px;
 }
 .logintext {

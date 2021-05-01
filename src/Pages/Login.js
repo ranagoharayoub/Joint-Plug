@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Login.css'
 
 function Login() {
@@ -24,7 +25,7 @@ function Login() {
                 <div className="member-">
                     <div className="loginbox-">
                         <div className="logintext-">NEW USER</div>
-                        <button className="loginbtn-">Sign Up</button>
+                        <Link to='/join'><button className="loginbtn-">Sign Up</button></Link>
                     </div>
                     <div className="socialtext-">
                         <p className="socialtxt-">OR</p>
