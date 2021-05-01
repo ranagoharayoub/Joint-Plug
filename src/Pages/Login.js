@@ -8,9 +8,9 @@ function Login() {
             <header className="heading-">
                 <h2 className="heading1-">LOGIN/REGISTER</h2>
             </header>
-            <div className="text-">
+            {/* <div className="text-">
                 <p className="simple-">LOGIN</p>
-            </div>
+            </div> */}
             <div className="combined-">
                 <div className="formblock-">
                     <form action="/signup">
