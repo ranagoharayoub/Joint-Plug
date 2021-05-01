@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .vid-div{
@@ -98,6 +99,7 @@
     line-height: 57px;
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 
 .marijuana{
@@ -109,7 +111,7 @@
     align-items: center;
     margin: 20px 0px;
     padding: 20px 0px;
-    
+    overflow: hidden;
 }
 
 .marijuana>p{
@@ -141,7 +143,6 @@
 }
 
 .home-prod{
-    height: 70vh;
     width: 100%;
     /* background-color: aquamarine; */
     display: flex;
@@ -168,11 +169,11 @@
 }
 
 .home-cards{
-    flex: 1;
+    /*flex: 1;*/
     width: 100%;
     /* background-color: yellowgreen; */
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
     align-items: center;
     /* justify-content: space-around;
     align-items: center; */
@@ -188,8 +189,8 @@
 
 .browse-sec{
     flex: 1;
-    width: 30%;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
@@ -214,14 +215,18 @@
 
 .back-img{
     margin-top: 50px;
-    height: 70vh;
-    width: 100%;
+    width: 98%;
+    height: max-content;
+    padding: 30px 10px;
     background-image: url('../Images/client-bg.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
+    
 }
 
 .let-box{
@@ -236,8 +241,9 @@
 .let{
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
-    line-height: 20px;
+    /*line-height: 20px;*/
     color: #55516a;
+    padding-left: 20px;
 }
 
 .input-fields{
@@ -251,7 +257,7 @@
 
 .name-input, .phone-input{
     height: 45px;
-    width: 380px; 
+    /* width: 380px; */
     border: 1px solid  #83AF99;
     background: transparent;
     padding: 6px 12px 6px 12px;
@@ -259,12 +265,13 @@
     font-size: 24px;
     line-height: 20px;
     color: #3C4B64;
+    margin-bottom: 10px;
     
 }
 
 .text-area{
     height: 150px;
-    width: 840px; 
+    /* width: 840px; */
     border: 1px solid  #83AF99;
     background: transparent;
     padding: 6px 12px 6px 12px;
@@ -279,7 +286,14 @@
     font-size: 24px;
 }
 
-
+.submit-btn-box{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: cadetblue; */
+}
 
 .submit-btn{
     padding: 10px 80px;
@@ -295,4 +309,36 @@
 .submit-btn:hover{
     background-color: #3AB97E;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    div.input-fields > form input{
+        width: 100%;
+    }
+    div.input-fields{
+        flex-wrap: wrap;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        flex-direction: column;
+    }
+    input{
+        width: 85%;
+    }
+    textarea{
+        width: 85%;
+    }
+    .over-vid, .disc{
+        display: none;
+    }
+    .marijuana p{
+        padding: 20px;
+        text-align: center;
+    }
+    .marijuana{
+        height: auto;
+    }
 }

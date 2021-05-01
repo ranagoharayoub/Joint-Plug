@@ -6,7 +6,7 @@ function HomePage() {
     return (
         <div className='home-cont'>
             <div className='vid-div'>
-                <video  className='vid' src='/videos/homeVideo.mp4' autoPlay muted controls></video>
+                <video  className='vid' src='/videos/homeVideo.mp4' controls></video>
                 <div className='over-vid'>
                     <div className='vid-tab'>
                         <p>Joint Plug</p>
@@ -35,9 +35,9 @@ function HomePage() {
                 </div>
                 <div className='home-cards'>
                     <div className='home-cards-sec'>
-                        <ProdCard></ProdCard>
-                        <ProdCard></ProdCard>
-                        <ProdCard></ProdCard>
+                        <ProdCard/>
+                        <ProdCard/>
+                        <ProdCard/>
                     </div>
                     <div className='browse-sec'>
                          <button className='browse-btn'>Browse More</button>
@@ -50,9 +50,9 @@ function HomePage() {
                 </div>
                 <div className='home-cards'>
                     <div className='home-cards-sec'>
-                        <ProdCard></ProdCard>
-                        <ProdCard></ProdCard>
-                        <ProdCard></ProdCard>
+                        <ProdCard/>
+                        <ProdCard/>
+                        <ProdCard/>
                     </div>
                     <div className='browse-sec'>
                          <button className='browse-btn'>Browse More</button>
@@ -63,21 +63,21 @@ function HomePage() {
                 <div className='let-box'>
                     <p className='let'>Let Us Know If you have any Questions!</p>
                 </div>
-                <div className='input-fields'>
+                <div className='input-fields-old'>
                     <form>
-                        <div style={{display:'flex', justifyContent:'space-between', margin:'20px 0px'}}>
+                        <div>
                             <input className='name-input' placeholder='Name'></input>
                             <input className='phone-input' placeholder='Phone-Number'></input>
                         </div>
-                        <div style={{display:'flex', justifyContent:'space-between', margin:'20px 0px'}}>
+                        <div>
                             <input className='name-input' placeholder='E-mail Adress'></input>
                             <input className='phone-input' placeholder='Location'></input>
                         </div>
-                        <div>
+                        <div style={{width: "100%"}}>
                             <textarea className='text-area' placeholder='Message'></textarea>
                         </div>
+                        <button className='submit-btn'>Submit</button>
                     </form>
-                    <button className='submit-btn'>Submit</button>
                 </div>
             </div>
         </div>
