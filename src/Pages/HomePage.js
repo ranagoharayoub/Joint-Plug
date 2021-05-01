@@ -6,7 +6,7 @@ function HomePage() {
     return (
         <div className='home-cont'>
             <div className='vid-div'>
-                <video  className='vid' src='/videos/homeVideo.mp4' autoPlay loop muted></video>
+                <video  className='vid' src='/videos/homeVideo.mp4' controls></video>
                 <div className='over-vid'>
                     <div className='vid-tab'>
                         <p>Joint Plug</p>
@@ -64,11 +64,24 @@ function HomePage() {
                     <p className='let'>Let Us Know If you have any Questions!</p>
                 </div>
                 <div className='input-fields'>
-                    
-                </div>
-                <div className='submit-btn-box'>
+                    <form>
+                        <div style={{display:'flex', justifyContent:'space-between', margin:'20px 0px'}}>
+                            <input className='name-input' placeholder='Name'></input>
+                            <input className='phone-input' placeholder='Phone-Number'></input>
+                        </div>
+                        <div style={{display:'flex', justifyContent:'space-between', margin:'20px 0px'}}>
+                            <input className='name-input' placeholder='E-mail Adress'></input>
+                            <input className='phone-input' placeholder='Location'></input>
+                        </div>
+                        <div>
+                            <textarea className='text-area' placeholder='Message'></textarea>
+                        </div>
+                    </form>
                     <button className='submit-btn'>Submit</button>
-                </div>    
+                </div>
+                {/* <div className='submit-btn-box'>
+                    <button className='submit-btn'>Submit</button>
+                </div>     */}
             </div>
         </div>
     )
