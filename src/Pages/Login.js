@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Login.css'
 
 function Login() {
+
+    const [email, setemail] = useState('')
+    const [password, setpassword] = useState('')
+
+    const formHandle = (e) =>{
+        alert(`email: ${email}, password: ${password}`)
+        e.preventDefault()
+    }
     return (
          <div className="main-div">
             <header className="heading-">
@@ -13,12 +21,12 @@ function Login() {
             </div> */}
             <div className="combined-">
                 <div className="formblock-">
-                    <form action="/signup">
+                    <form onSubmit={formHandle}>
                     <label for="email"className="email-" required>E-mail</label><br></br>
-                    <input className="emailbox-" type="email" placeholder="Enter E-mail" id="email" name="email"></input>
+                    <input value={email} onChange={e => setemail(e.target.value)} className="emailbox-" type="email" placeholder="Enter E-mail" id="email" name="email"></input>
                     <label for="password"className="password-">Password</label><br></br>
-                    <input className="passwordbox-" type="password" placeholder="Enter Password" id="password" name="password"></input><br></br>
-                        <button className="register-">Sign In</button>
+                    <input value={password} onChange={e => setpassword(e.target.value)} className="passwordbox-" type="password" placeholder="Enter Password" id="password" name="password"></input><br></br>
+                        <button className="register-" type='submit'>Sign In</button>
                         <button className="register1-">Forgot Password</button>
                 </form>
             </div>
