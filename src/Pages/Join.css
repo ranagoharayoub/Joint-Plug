@@ -230,9 +230,9 @@ h2 {
   justify-content: space-around;
   /* align-items: center; */
   background-image: url('../Images/client-bg.jpg');
-  background-position: center;
+  /* background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   /* background-color: #f71717; */
 }
 .loginbox {
@@ -365,14 +365,11 @@ h2 {
     /* background-color: #e26752; */
   }  
   .combined {
+
     display: flex;
     flex-direction: column;
-    height: max-content;
-    width: 100%;
     align-items: center;
-    justify-content: flex-start;
-    /* display: none; */
-    background-image: none;
+    min-height: max-content;
   }
 
   .formblock {

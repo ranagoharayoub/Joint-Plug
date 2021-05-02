@@ -6,6 +6,7 @@ function ContactUs() {
     return (
         <div className="main-div1">
             <div className="heading-3"><h1 className="heading4">Contact Us</h1></div>
+            <div className='cu-bg'>
             <form className="contactus" action="/contactme">
                  <label for="name"className="name5-" required>Name</label>
                     <input className="namebox5-" type="text" id="name" name="name" placeholder="Enter Your Name"></input>
@@ -28,6 +29,7 @@ function ContactUs() {
                     <textarea className="messagebox" cols="50" rows="50" type="text" id="message" name="message" placeholder="Type your message here"></textarea><br></br>
                 <button className="register-btn">Send Message</button>
             </form>
+            </div>
         </div>
     )
 }
