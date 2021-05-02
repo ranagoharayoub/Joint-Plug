@@ -162,11 +162,10 @@
 
 @media (max-width: 400px){
   .cu-bg{
-
     height: max-content;
     overflow-x: hidden;
-
   }
+  
   .main-div1  .contactus{
     background-image: none;
     justify-content: flex-start;

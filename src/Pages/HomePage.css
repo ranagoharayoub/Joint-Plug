@@ -11,6 +11,7 @@
 .vid-div{
     position: relative;
     width: 100%;
+    height: 100%;
     /* background-color: cadetblue; */
     display: flex;
     justify-content: center;
@@ -19,8 +20,10 @@
 }
 .vid{
     width: 100%;
+    height: 100%;
     margin: 0%;
     padding: 0%;
+    object-fit: cover;
 }
 
 .over-vid{
@@ -342,5 +345,16 @@
     }
     .marijuana{
         height: auto;
+    }
+
+    .vid-div{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        /* background-color: cadetblue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
 }

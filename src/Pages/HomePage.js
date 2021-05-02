@@ -6,7 +6,8 @@ function HomePage() {
     return (
         <div className='home-cont'>
             <div className='vid-div'>
-                <video  className='vid' src='/videos/homeVideo.mp4' controls></video>
+                {/* <video  className='vid' src='/videos/homeVideo.mp4' controls></video> */}
+                <video  className='vid' src='/videos/videoHome.mp4' autoPlay muted controls></video>
                 <div className='over-vid'>
                     <div className='vid-tab'>
                         <p>Joint Plug</p>
