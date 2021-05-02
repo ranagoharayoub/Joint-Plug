@@ -1,0 +1,14 @@
+.bottom-nav{
+    position: sticky;
+    bottom: 0%;
+    height: 5vh;
+    width: 100%;
+    background-color: #5FBDAF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom-nav > img{
+    height: 24px;
+}

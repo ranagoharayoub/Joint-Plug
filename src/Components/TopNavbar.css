@@ -1,0 +1,16 @@
+.topnav{
+    position: sticky;
+    top: 0%;
+    height: 5vh;
+    width: 100%;
+    background-color: #5FBDAF; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.topnav > img{
+    height: 24px;
+}

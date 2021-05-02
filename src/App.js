@@ -13,12 +13,38 @@ import {
 } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect, useState } from 'react';
+import TopNavbar from './Components/TopNavbar';
+import BottomNavbar from './Components/BottomNavbar';
+
 
 function App() {
+
+
+  const [screen, setscreen] = useState(window.innerWidth)
+const [mobile, setmobile] = useState(false)
+ 
+useEffect(() => {
+    const width = () =>{
+        
+        setscreen(window.innerWidth) 
+    }
+    if(screen <'500'){
+      setmobile(true)
+    }
+    window.addEventListener('resize', width)
+
+  }, [screen])
+
+
+console.log(screen)
+console.log(mobile)
+
   return (
     <Router>
-      <Navbar></Navbar>
+      {
+        mobile? <TopNavbar></TopNavbar> : <Navbar></Navbar>
+      }
       <Switch>
         <Route path='/' exact component={HomePage}></Route>
         <Route path='/join' component={Join}></Route>
@@ -29,6 +55,9 @@ function App() {
         <Route path='/addbusiness' component={AddBusiness}></Route>
       </Switch>
       <Footer></Footer>
+      {
+        mobile? <BottomNavbar></BottomNavbar> : null
+      }
     </Router>
   );
 }
