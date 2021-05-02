@@ -3,7 +3,7 @@
     width: auto;
     /* background-color: blueviolet; */
     display: flex;
-
+    overflow-x: hidden;
 }
 
 .left-footer{
@@ -86,7 +86,8 @@
 @media only screen and (max-width: 768px) {
     .footer-cont{
         flex-direction: column;
-       align-items: center;
+        align-items: center;
+        overflow: hidden;
     }
     .left-footer, .right-footer{
         width: 100%;

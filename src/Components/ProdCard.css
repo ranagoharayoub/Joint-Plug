@@ -12,7 +12,7 @@
 /* If the screen size is 600px wide or less, hide the element */
 @media only screen and (max-width: 768px) {
   .prod-card-cont {
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px;
   }
   .home-cards-sec{
