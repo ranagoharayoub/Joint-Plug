@@ -6,12 +6,8 @@ function Join() {
     return (
         <div className="maindiv">
             <header>
-                <h2>LOGIN/REGISTER</h2>
-                {/* <button className="entity">x</button> */}
+                <h2>SIGN UP</h2>
             </header>
-            <div className="text">
-                <p>SIGN UP</p>
-            </div>
             <div className="combined">
                 <div className="formblock">
                 <form action="/signup">
@@ -120,22 +116,16 @@ function Join() {
                 </form>
             </div>
                 <div className="member">
-                    <div className="loginbox">
-                        <div className="logintext">Already Member?</div>
-                        <Link to ='/login' ><button className="loginbtn">Sign In</button></Link>
+                    <div className="loginbox-">
+                        <div className="logintext-">Already Member?</div>
+                        <Link to='/join'><button className="loginbtn-">Sign In</button></Link>
                     </div>
-                    <div className="socialtext">
-                        <p className="socialtxt">OR</p>
-                        <p className="socialtxt">Sign In using<br></br>social account</p>
-                        <div className="socialbtn">
-                        <button className="socialbtn1">Login with Facebook</button>
-                        </div>
-                        <div className="socialbtn">
-                        <button className="socialbtn2">Login with Twitter</button>
-                        </div>
-                        <div className="socialbtn">
-                        <button className="socialbtn3">Login with Google</button>
-                        </div>
+                    <div className="socialtext-">
+                        <p className="or">OR</p>
+                        <p className="sign-in-">Sign UP using<br></br>social account</p>
+                        <button className="socialbtn1-">SIGN UP with Facebook</button>
+                        <button className="socialbtn2-">SIGN UP with Twitter</button>
+                        <button className="socialbtn3-">SIGN UP with Google</button>
                     </div>
                     <div className="tos">SMS TOS</div>
                     <div className="tos1">

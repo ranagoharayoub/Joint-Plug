@@ -14,7 +14,7 @@ function Login() {
     return (
          <div className="main-div">
             <header className="heading-">
-                <h2 className="heading1-">LOGIN/REGISTER</h2>
+                <h2 className="heading1-">LOGIN</h2>
             </header>
             <div className="combined-">
                 <div className="formblock-">

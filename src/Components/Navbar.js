@@ -8,7 +8,7 @@ function Navbar() {
     return (
         <div className='nav-cont'>
             <div className='upper-nav'>
-               <p className='login-register' ><Link to='join' style={{textDecoration:'none', color:'inherit'}}>Login / Register</Link></p>
+               <p className='login-register' ><Link to='/login' style={{textDecoration:'none', color:'inherit'}}>Login / Register</Link></p>
             </div>
             <div className='lower-nav hide-on-mobile'>
                 <div className='left-nav'>
