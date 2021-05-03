@@ -57,22 +57,6 @@ function AddBusiness() {
                         </div>
                     </div>
                 </div>
-                <div className='tiles-box'>
-                    <div className='tiles-pic'>
-                        <img src='/img/44-n.png' alt='img'></img>
-                    </div>
-                    <div className='tiles-text'>
-                        <div className='d-name'>
-                                Fresher
-                        </div>
-                        <div className='type'>
-                                Dispensary
-                        </div>
-                        <div className='b-address'>
-                                Wasignton DC
-                        </div>
-                    </div>
-                </div>
           </div>
           <div className='b-title'>
            DULLES MARIJUAN NEWS & NETWROK
