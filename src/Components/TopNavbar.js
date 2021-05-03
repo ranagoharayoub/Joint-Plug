@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './TopNavbar.css'
 
 function TopNavbar() {
@@ -16,13 +17,13 @@ function TopNavbar() {
             <div className={state?'slider':'hide'}>
                 
                 <div className='slider-btn'>
-                    <button>Join</button>
-                    <button>Login</button>
-                    <button>Contact-us</button>
-                    <button>Blog</button>
-                    <button>News</button>
-                    <button>Business</button>
-                    <button onClick={()=> setstate(false)}>Close</button>
+                    <Link className='menu-btn' to='/join'><button>Join</button></Link>
+                    <Link className='menu-btn' to='/login'><button >Login</button></Link>
+                    <Link className='menu-btn' to='/contactus'><button >Contact-us</button></Link>
+                    <Link className='menu-btn' to='/blog'><button >Blog</button></Link>
+                    <Link className='menu-btn' to='/news'><button >News</button></Link>
+                    <Link className='menu-btn' to='/business'><button >Business</button></Link>
+                    <Link className='menu-btn'><button  onClick={()=> setstate(false)}>Close</button></Link>
                 </div>
             </div>
         </div>
