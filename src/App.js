@@ -16,6 +16,7 @@ import Footer from './Components/Footer';
 import { useEffect, useState } from 'react';
 import TopNavbar from './Components/TopNavbar';
 import BottomNavbar from './Components/BottomNavbar';
+import Menu from './Pages/Menu';
 
 
 function App() {
@@ -52,6 +53,7 @@ useEffect(() => {
         <Route path='/contactus' component={ContactUs}></Route>
         <Route path='/blog' component={Blog}></Route>
         <Route path='/news' component={News}></Route>
+        <Route path='/menu' component={Menu}></Route>
         <Route path='/addbusiness' component={AddBusiness}></Route>
       </Switch>
       <Footer></Footer>
