@@ -1,5 +1,5 @@
 .nav-cont{
-    height: 130px;
+    height: 100px;
     width: auto;
     /* background-color: aquamarine; */
     display: flex;
@@ -95,36 +95,4 @@
     transition: 1000ms;
        
 }
-.hide-on-big{
-    display: none;
-}
-#mobileMenu{
-    display: none;
-}
-@media only screen and (max-width: 768px) {
-    .hide-on-mobile{
-        display: none;
-    }
-    .hide-on-big{
-        display: flex;
-    }
-    #mobileMenu button{
-        display: block;
-        margin-bottom: 10px;
-        padding: 5px;
-        background-color: lightgreen;
-        color: whitesmoke;
-        width: 100%;
-    }
-    #mobileMenu{
-        display: block;
-        padding: 100px 10px 10px;
-        transition: right 300ms;
-    }
-    .showNav{
-        right: 0
-    }
-    .hideNav{
-        right: -500px
-    }
-}
+

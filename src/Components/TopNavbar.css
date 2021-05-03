@@ -3,7 +3,7 @@
     top: 0%;
     height: 5vh;
     width: 100%;
-    background-color: #5FBDAF; 
+    background-color: lightgrey; 
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -13,4 +13,51 @@
 
 .topnav > img{
     height: 24px;
+}
+
+.topnav .slider{
+    position: absolute;
+    right: 0%;
+    top: 5vh;
+    height: 100vh;
+    width: 70vw;
+    /* background-color: lightskyblue; */
+    background-image: url('../Images/client-bg.jpg');
+    opacity: 0.5;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    transition: right 1000ms;
+}
+
+.topnav .hide{
+    right: -500px;
+    display: none;
+}
+
+.slider-btn{
+    margin-top: 20px;
+    height: 90vh;
+    width: 100%;
+    /* background-color: lightslategrey; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.slider-btn> button{
+    box-sizing: border-box;
+    padding: 5px 0px;
+    border: 3px solid  #3AB97E;
+    border-radius: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    line-height: 20px;
+    color: #55516a;
+    transition: 1000ms;
+    cursor: pointer;
+    margin: 10px 0px;
+    width: 50%;
+    /* background: transparent; */
 }

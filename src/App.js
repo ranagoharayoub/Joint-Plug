@@ -22,7 +22,8 @@ function App() {
 
 
   const [screen, setscreen] = useState(window.innerWidth)
-const [mobile, setmobile] = useState(false)
+  const [mobile, setmobile] = useState(false)
+  
  
 useEffect(() => {
     const width = () =>{
@@ -37,11 +38,10 @@ useEffect(() => {
   }, [screen])
 
 
-console.log(screen)
-console.log(mobile)
 
   return (
     <Router>
+
       {
         mobile? <TopNavbar></TopNavbar> : <Navbar></Navbar>
       }
@@ -56,7 +56,7 @@ console.log(mobile)
       </Switch>
       <Footer></Footer>
       {
-        mobile? <BottomNavbar></BottomNavbar> : null
+        mobile?<BottomNavbar></BottomNavbar> : null
       }
     </Router>
   );
