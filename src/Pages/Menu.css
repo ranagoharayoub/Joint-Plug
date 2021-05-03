@@ -26,6 +26,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 5%;
     /* align-items: center; */
 }
 
@@ -37,6 +38,6 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-      overflow: auto;
+        overflow: auto;
     }
 }

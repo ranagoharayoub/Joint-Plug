@@ -20,9 +20,9 @@ function Navbar() {
                     <Link to='/'><img src='/img/logo.png' alt='logo' /></Link>
                 </div>
                 <div className='right-nav'>
-                    <p>BLOG</p>
-                    <p>NEWS</p>
-                    <p>ADD YOUR BUSINESS</p>
+                    <p><Link style={{textDecoration:'none', color:'inherit'}} to='/blog'>BLOG</Link></p>
+                    <p><Link style={{textDecoration:'none', color:'inherit'}} to='/news'>NEWS</Link></p>
+                    <p><Link style={{textDecoration:'none', color:'inherit'}} to='/addbusiness'>ADD YOUR BUSINESS</Link></p>
                 </div>
             </div>
 
