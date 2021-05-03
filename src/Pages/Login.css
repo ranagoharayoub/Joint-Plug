@@ -5,10 +5,9 @@
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
-  
 }
 .heading- {
-  background-color: #5FBDAF;
+  background-color: #5fbdaf;
   width: 100%;
   height: 46.4px;
   display: flex;
@@ -51,7 +50,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
 .email- {
@@ -66,7 +65,7 @@
   width: 340px;
   height: 34px;
   border-radius: 5px;
-  border: solid #3AB97E 1px;
+  border: solid #3ab97e 1px;
   padding: 6px 12px 6px 12px;
   margin-bottom: 15px;
   background-color: transparent;
@@ -83,7 +82,7 @@
   width: 340px;
   height: 34px;
   border-radius: 5px;
-  border: solid #3AB97E 1px;
+  border: solid #3ab97e 1px;
   padding: 6px 12px 6px 12px;
   margin-bottom: 15px;
   background-color: transparent;
@@ -91,32 +90,32 @@
 .register- {
   box-sizing: border-box;
   padding: 5px 80px;
-  border: 3px solid  #3AB97E;
+  border: 3px solid #3ab97e;
   border-radius: 20px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 24px;
   line-height: 20px;
   color: #55516a;
   transition: 1000ms;
   cursor: pointer;
+  width: 93.5%;
 }
 .register-:hover {
-  
-  background-color: #3AB97E;
+  background-color: #3ab97e;
   cursor: pointer;
 }
 .register1- {
   margin-top: 10px;
   padding: 5px 80px;
-  border: 3px solid  lightcoral;
+  border: 3px solid lightcoral;
   border-radius: 20px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 24px;
   line-height: 20px;
   color: #55516a;
   transition: 1000ms;
   cursor: pointer;
-
+  width: 93.5%;
 }
 .register1-:hover {
   background-color: lightcoral;
@@ -139,7 +138,7 @@
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  background-image: url('../Images/client-bg.jpg')
+  background-image: url("../Images/client-bg.jpg");
 }
 .loginbox- {
   width: 250px;
@@ -162,9 +161,9 @@
 }
 .loginbtn- {
   padding: 5px 80px;
-  border: 2px solid  lightskyblue;
+  border: 2px solid lightskyblue;
   border-radius: 20px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 24px;
   line-height: 20px;
   color: #55516a;
@@ -173,7 +172,6 @@
 }
 .loginbtn-:hover {
   background-color: lightskyblue;
-  
 }
 .socialtext- {
   display: flex;
@@ -186,9 +184,9 @@
 .socialbtn1- {
   box-sizing: border-box;
   padding: 5px 40px;
-  border: 2px solid  darkslateblue;
+  border: 2px solid darkslateblue;
   border-radius: 20px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 18px;
   line-height: 20px;
   color: #55516a;
@@ -202,9 +200,9 @@
 .socialbtn2- {
   box-sizing: border-box;
   padding: 5px 40px;
-  border: 2px solid  dodgerblue;
+  border: 2px solid dodgerblue;
   border-radius: 20px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 18px;
   line-height: 20px;
   color: #55516a;
@@ -218,9 +216,9 @@
 .socialbtn3- {
   box-sizing: border-box;
   padding: 5px 40px;
-  border: 2px solid  darkred;
+  border: 2px solid darkred;
   border-radius: 20px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 18px;
   line-height: 20px;
   color: #55516a;
@@ -232,8 +230,7 @@
   color: white;
 }
 
-
-@media (max-width: 400px){
+@media (max-width: 400px) {
   .combined- {
     display: flex;
     flex-direction: column;
@@ -244,8 +241,122 @@
   .email- {
     display: none;
   }
-
+  .emailbox- {
+    width: 90%;
+  }
   .password- {
     display: none;
+  }
+  .passwordbox- {
+    width: 90%;
+  }
+  .register- {
+    width: 90%;
+  }
+  .register1- {
+    width: 90%;
+  }
+  .formblock- {
+    width: 366px;
+    min-height: 261px;
+    border: solid #dddddd 1px;
+    padding: 15px 15px 15px 15px;
+    margin-left: 0px;
+    /* margin-top: -70px; */
+    border-radius: 5px;
+    /* background-color:#3AB97E;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  form {
+    padding: 0px;
+    margin-left: 5px;
+  }
+  .member- {
+    margin: 0px;
+    display: block;
+  }
+  .socialtext- {
+    height: 15vh;
+  }
+  .socialbtn1- {
+    width: 100%;
+  }
+  .socialbtn2- {
+    width: 100%;
+  }
+  .socialbtn3- {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .combined- {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: max-content;
+  }
+
+  .email- {
+    display: none;
+  }
+  .emailbox- {
+    width: 90%;
+  }
+  .password- {
+    display: none;
+  }
+  .passwordbox- {
+    width: 90%;
+  }
+  .register- {
+    width: 90%;
+  }
+  .register- > p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .register1- {
+    width: 90%;
+  }
+  .register1- > p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .formblock- {
+    width: 366px;
+    min-height: 261px;
+    border: solid #dddddd 1px;
+    padding: 15px 15px 15px 15px;
+    margin-left: 0px;
+    /* margin-top: -70px; */
+    border-radius: 5px;
+    /* background-color:#3AB97E;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  form {
+    padding: 0px;
+    margin-left: 5px;
+  }
+  .member- {
+    margin: 0px;
+    display: block;
+  }
+  .socialtext- {
+    height: 15vh;
+  }
+  .socialbtn1- {
+    width: 90%;
+  }
+  .socialbtn2- {
+    width: 90%;
+  }
+  .socialbtn3- {
+    width: 90%;
   }
 }

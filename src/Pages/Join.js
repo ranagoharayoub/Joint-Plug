@@ -10,16 +10,16 @@ function Join() {
             </header>
             <div className="combined">
                 <div className="formblock">
-                <form action="/signup">
+                <form className="form-1" action="/signup">
                     <label for="username"className="username">Username</label><br></br>
                     <input className="userbox" type="text" placeholder="Enter Username" id="username" name="username"></input><br></br>
                     <label for="email"className="email">E-mail</label><br></br>
                     <input className="emailbox" type="email" placeholder="Enter E-mail" id="email" name="email"></input>
                     <label for="password"className="password">Password</label><br></br>
                     <input className="passwordbox" type="password" placeholder="Enter Password" id="password" name="password"></input><br></br>
-                    <label for="password"className="password">Re-type Password</label><br></br>
-                    <input className="passwordbox" type="password" placeholder="Verify Password" id="password" name="password"></input><br></br>
-                    <h3 className="birthday">DOB</h3>
+                    <label for="password"className="re-password">Re-type Password</label><br></br>
+                    <input className="re-passwordbox" type="password" placeholder="Verify Password" id="password" name="password"></input><br></br>
+                    <div className="calendar"><h3 className="birthday">DOB</h3>
                     <select name="month" className="month">
                         <option value="month">Month</option>
                         <option value="month">Jan</option>
@@ -102,8 +102,8 @@ function Join() {
                         <option value="year">2019</option>
                         <option value="year">2020</option>
                         <option value="year">2021</option>
-                    </select><br></br>
-                    <label for="zip"className="zip">Zip Code</label><br></br>
+                    </select><br></br></div>
+                    <label for="zip"className="zip">Zip Code</label>
                     <input className="zipbox" type="text" placeholder="Enter Zip Code" id="zip" name="zip"></input><br></br>
                     <input type="checkbox" value="checkbox" id="checkbox"></input>
                     <label for="checkbox" className="newsletter">Newsletter</label>
@@ -112,21 +112,21 @@ function Join() {
                     <input className="phonebox" type="text" placeholder="Enter Phone Number" id="phonenumber" name="phonenumber"></input><br></br>
                     <input type="checkbox" value="checkbox" id="checkbox"></input>
                     <label for="checkbox" className="newsletter">Receive SMS Updates</label><br></br>
-                    <button className="register">Sign Up</button>
+                    <button className="register">Sign&nbsp;Up</button>
                 </form>
             </div>
                 <div className="member">
                     <div className="loginbox-">
                         <div className="logintext-">Already Member?</div>
-                        <Link to='/join'><button className="loginbtn-">Sign In</button></Link>
-                    </div>
+                        <Link to='/login'><button className="loginbtn-">Sign In</button></Link>
+                    </div><br></br>
                     <div className="socialtext-">
                         <p className="or">OR</p>
                         <p className="sign-in-">Sign UP using<br></br>social account</p>
-                        <button className="socialbtn1-">SIGN UP with Facebook</button>
-                        <button className="socialbtn2-">SIGN UP with Twitter</button>
+                        <button className="socialbtn1-">SIGN UP with Facebook</button><br></br>
+                        <button className="socialbtn2-">SIGN UP with Twitter</button><br></br>
                         <button className="socialbtn3-">SIGN UP with Google</button>
-                    </div>
+                    </div><br></br>
                     <div className="tos">SMS TOS</div>
                     <div className="tos1">
                         <p className="para1">

@@ -23,20 +23,20 @@ function Login() {
                     <input value={email} onChange={e => setemail(e.target.value)} className="emailbox-" type="email" placeholder="Enter E-mail" id="email" name="email"></input>
                     <label for="password"className="password-">Password</label><br></br>
                     <input value={password} onChange={e => setpassword(e.target.value)} className="passwordbox-" type="password" placeholder="Enter Password" id="password" name="password"></input><br></br>
-                        <button className="register-" type='submit'>Sign In</button>
-                        <button className="register1-">Forgot Password</button>
+                        <button className="register-" type='submit'><p>Sign In</p></button>
+                        <button className="register1-"><p>Forgot&nbsp;Password</p></button>
                     </form>
                 </div>
                 <div className="member-">
                     <div className="loginbox-">
                         <div className="logintext-">NEW USER</div>
-                        <Link to='/join'><button className="loginbtn-">Sign Up</button></Link>
+                        <Link to='/join'><button className="loginbtn-">Sign&nbsp;Up</button></Link>
                     </div>
                     <div className="socialtext-">
-                        <p className="or">OR</p>
+                        {/* <p className="or">OR</p> */}
                         <p className="sign-in-">Sign In using<br></br>social account</p>
-                        <button className="socialbtn1-">Login with Facebook</button>
-                        <button className="socialbtn2-">Login with Twitter</button>
+                        <button className="socialbtn1-">Login with Facebook</button><br></br>
+                        <button className="socialbtn2-">Login with Twitter</button><br></br>
                         <button className="socialbtn3-">Login with Google</button>
                     </div>
                 </div>
