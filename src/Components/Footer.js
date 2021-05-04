@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 function Footer() {
@@ -10,15 +11,15 @@ function Footer() {
                 <div className='footer-flex'>
                     <div className='about-col'>
                         <p style={{fontFamily:'Bebas Neue', fontSize:'31px', fontWeight:'500', lineHeight: '34px', margin:'0px 0px'}}>COMPANY</p>
-                        <p>Blog</p>
-                        <p>Our Menu</p>
-                        <p>Contact Us</p>
+                        <Link style={{textDecoration:'none', color:'inherit'}} to='/blog'><p>Blog</p></Link>
+                        <Link style={{textDecoration:'none', color:'inherit'}} to='/menu'><p>Our Menu</p></Link>
+                        <Link style={{textDecoration:'none', color:'inherit'}} to='/contactus'><p>Contact Us</p></Link>
                     </div>
                     <div className='user-col'>
-                        <p style={{fontFamily:'Bebas Neue', fontSize:'31px', fontWeight:'500', lineHeight: '34px', margin:'0px 0px'}}>USERS</p>
-                        <p>Login</p>
-                        <p>Register</p>
-                        <p>Add Your Business</p>
+                        <p style={{fontFamily:'Bebas Neue', fontSize:'31px', fontWeight:'500', lineHeight: '34px', margin:'0px 0px', }}>USERS</p>
+                        <Link style={{textDecoration:'none', color:'inherit'}} to='/login'><p>Login</p></Link>
+                        <Link style={{textDecoration:'none', color:'inherit'}} to='/join'><p>Register</p></Link>
+                        <Link style={{textDecoration:'none', color:'inherit'}} to='/addbusiness'><p>Add Your Business</p></Link>
                     </div>
                 </div>
                 <div className='social-contact'>

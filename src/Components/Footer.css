@@ -42,11 +42,12 @@
   align-items: center;
 }
 
-.about-col > p {
+.about-col  p {
   font-family: "Raleway", sans-serif;
   font-size: 21px;
   line-height: 30px;
   margin: 20px 0px;
+  text-decoration: none;
   
 }
 
@@ -54,17 +55,19 @@
   width: 30%;
   height: 80%;
   /* background-color: lightcoral; */
-    display: flex;
+  display: flex;
   flex-direction: column;
-
+  text-decoration: none;
   align-items: center;
 }
 
-.user-col > p {
+.user-col  p {
   font-family: "Raleway", sans-serif;
   font-size: 21px;
   line-height: 30px;
   margin: 20px 0px;
+  min-width: max-content;
+  text-decoration: none;
 }
 
 .social-contact {
