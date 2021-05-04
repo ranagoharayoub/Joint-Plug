@@ -31,7 +31,7 @@ useEffect(() => {
         
         setscreen(window.innerWidth) 
     }
-    if(screen <'500'){
+    if(screen <'700'){
       setmobile(true)
     }
     window.addEventListener('resize', width)
