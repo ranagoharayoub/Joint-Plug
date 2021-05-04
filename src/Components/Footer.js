@@ -5,18 +5,17 @@ function Footer() {
     return (
         <div className='footer-cont' id='footer'>
             <div className='left-footer'>
-
             </div>
             <div className='right-footer'>
                 <div className='footer-flex'>
                     <div className='about-col'>
-                        <p style={{fontFamily:'Bebas Neue', fontSize:'31px', fontWeight:'500', lineHeight: '34px', margin:'50px 0px'}}>COMPANY</p>
+                        <p style={{fontFamily:'Bebas Neue', fontSize:'31px', fontWeight:'500', lineHeight: '34px', margin:'0px 0px'}}>COMPANY</p>
                         <p>Blog</p>
                         <p>Our Menu</p>
                         <p>Contact Us</p>
                     </div>
                     <div className='user-col'>
-                        <p style={{fontFamily:'Bebas Neue', fontSize:'31px', fontWeight:'500', lineHeight: '34px', margin:'50px 0px'}}>USERS</p>
+                        <p style={{fontFamily:'Bebas Neue', fontSize:'31px', fontWeight:'500', lineHeight: '34px', margin:'0px 0px'}}>USERS</p>
                         <p>Login</p>
                         <p>Register</p>
                         <p>Add Your Business</p>

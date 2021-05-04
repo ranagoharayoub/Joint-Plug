@@ -1,107 +1,109 @@
-.footer-cont{
-    height: 577px;
-    width: auto;
-    /* background-color: blueviolet; */
-    display: flex;
-    overflow-x: hidden;
+.footer-cont {
+  height: 577px;
+  width: auto;
+  /* background-color: blueviolet; */
+  display: flex;
+  overflow-x: hidden;
 }
 
-.left-footer{
-    height: 100%;
-    width: 50%;
-    background-image: url('../Images/love-yourself.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.left-footer {
+  height: 100%;
+  width: 50%;
+  background-image: url("../Images/love-yourself.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.right-footer{
-    height: 100%;
-    width: 45%;
-    /* background-color: aquamarine; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.right-footer {
+  height: 100%;
+  width: 45%;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.footer-flex{
-    display: flex;
-    height: 70%;
-    width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
-    /* background-color: lightgreen; */
+.footer-flex {
+  display: flex;
+  height: 70%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: lightgreen; */
 }
 
-.about-col{
-    width: 30%;
-    height: 80%;
-    /* background-color: yellowgreen; */
+.about-col {
+  width: 30%;
+  height: 80%;
+  /* background-color: yellowgreen; */
 }
 
-.about-col>p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 21px;
-    line-height: 30px;
-    margin: 20px 0px;
+.about-col > p {
+  font-family: "Raleway", sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  margin: 20px 0px;
 }
 
-
-.user-col{
-    width: 30%;
-    height: 80%;
-    /* background-color: lightcoral; */
+.user-col {
+  width: 30%;
+  height: 80%;
+  /* background-color: lightcoral; */
 }
 
-.user-col>p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 21px;
-    line-height: 30px;
-    margin: 20px 0px;
+.user-col > p {
+  font-family: "Raleway", sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  margin: 20px 0px;
 }
 
-.social-contact{
-    
-    height: 10%;
-    width: 50%;
-    /* background-color: lightcoral; */
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.social-contact {
+  height: 10%;
+  width: 50%;
+  /* background-color: lightcoral; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.address{
-    flex: 1;
-    height: 100%;
-    width: 100%;
-    /* background-color: blueviolet; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 24px;
-    line-height: 20px;
-    color: #55516a;
+.address {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  line-height: 20px;
+  color: #55516a;
 }
 @media only screen and (max-width: 768px) {
-    .footer-cont{
-        flex-direction: column;
-        align-items: center;
-        overflow: hidden;
-    }
-    .left-footer, .right-footer{
-        width: 100%;
-        padding: 20px;
-        min-height: 100px;
-    }
-    .footer-flex{
-        height: auto;
-    }
-    .social-contact{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 20px;
-        display: flex;
-        justify-content: space-evenly;
-    }
+  .footer-cont {
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  .left-footer,
+  .right-footer {
+    width: 100%;
+    /* padding: 20px;
+        min-height: 100px; */
+    margin-left: -10px;
+  }
+  .footer-flex {
+    height: auto;
+    justify-content: space-evenly;
+    margin-left: 90px;
+  }
+  .social-contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
