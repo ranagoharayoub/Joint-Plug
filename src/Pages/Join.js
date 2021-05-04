@@ -116,19 +116,19 @@ function Join() {
                 </form>
             </div>
                 <div className="member">
-                    <div className="loginbox-">
+                    <div className="loginbox">
                         <div className="logintext-">Already Member?</div>
                         <Link to='/login'><button className="loginbtn-">Sign In</button></Link>
-                    </div><br></br>
-                    <div className="socialtext-">
+                    </div>
+                    <div className="socialtext">
                         <p className="or">OR</p>
                         <p className="sign-in-">Sign UP using<br></br>social account</p>
                         <button className="socialbtn1-">SIGN UP with Facebook</button><br></br>
                         <button className="socialbtn2-">SIGN UP with Twitter</button><br></br>
                         <button className="socialbtn3-">SIGN UP with Google</button>
-                    </div><br></br>
-                    <div className="tos">SMS TOS</div>
+                    </div>
                     <div className="tos1">
+                        <p className='tos'>SMS TOS</p>
                         <p className="para1">
                             <p className="l1">Message and data rates may apply"<br></br></p>
                             <p className="l2">You can expect up to 1-2 text messages per month.<br></br></p>

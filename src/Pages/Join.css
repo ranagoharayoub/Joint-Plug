@@ -246,16 +246,13 @@ h2 {
   justify-content: space-around;
   /* align-items: center; */
   background-image: url("../Images/client-bg.jpg");
-  /* background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
-  /* background-color: #f71717; */
+  
 }
-.loginbox {
+.loginbox{
   width: 250px;
-  height: 85.2px;
-  border: solid #dddddd 1px;
-  background-color: #f5f5f5;
+  min-height: 85.2px;
+  /* border: solid #dddddd 1px; */
+  /* background-color: #f5f5f5; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -279,7 +276,8 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
 }
-.socialtxt {
+
+.socialtext {
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -287,7 +285,21 @@ h2 {
   line-height: 19.8px;
   margin-top: 10px;
   color: #446152;
+  /* background-color: darkseagreen; */
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
+
+.socialtext>p{
+  margin: 10px 0px;
+}
+
+
+
 .socialbtn1 {
   width: 100%;
   background-color: #5972a8;
@@ -334,6 +346,7 @@ h2 {
   background-color: red;
 }
 .tos {
+  min-height: max-content;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -344,9 +357,15 @@ h2 {
   color: #446152;
   text-decoration: underline;
 }
+
+.tos1{
+  /* background-color: darkturquoise; */
+}
+
 .para1 {
   font-family: "Raleway", sans-serif;
   margin: 0px 0px;
+  /* text-align: center; */
 }
 .l1 {
   font-family: "Raleway", sans-serif;
@@ -369,7 +388,7 @@ h2 {
   text-justify: auto;
 }
 
-@media (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .maindiv {
     min-height: 870px;
     width: 100%;
@@ -383,7 +402,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: max-content;
+    height: max-content;
   }
 
   .formblock {
@@ -433,26 +452,23 @@ h2 {
   .phonenumber {
     display: none;
   }
-  .socialtxt- {
-    display: block;
-  }
+
+
   .member {
     width: 80%;
     text-align: justify;
+    min-height: 100vh;
   }
-  .register {
-  }
+  
   .loginbtn- {
     border: solid #3ab97e 3px;
   }
-  .socialbtn1-{
-    height: 30px;
+
+  .or{
+    margin: 20px 0px;
   }
-    .socialbtn2-{
-    height: 30px;
-  }
-  .socialbtn3-{
-    height: 30px;
-    margin-bottom: 20px;
+
+  .sign-in-{
+    margin-bottom: 10px;
   }
 }

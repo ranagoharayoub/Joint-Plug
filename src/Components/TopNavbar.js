@@ -13,7 +13,7 @@ function TopNavbar() {
             <img className='location' src='/img/loc.png' alt='search'></img>
             <img className='cart' src='/img/shopping-cart.png' alt='search'></img>
             <img className='leave' src='/img/11-n.png' alt='search'></img>
-            <img onClick={()=> setstate(true)} className='bar' src='/img/menu.png' alt='search'></img>
+            <img onClick={()=> setstate(!state)} className='bar' src='/img/menu.png' alt='search'></img>
             <div className={state?'slider':'hide'}>
                 
                 <div className='slider-btn'>
