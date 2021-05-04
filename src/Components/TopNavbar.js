@@ -16,14 +16,14 @@ function TopNavbar() {
             <img onClick={()=> setstate(!state)} className='bar' src='/img/menu.png' alt='search'></img>
             <div className= {state?'slider':'hide'}>
                 <div className='slider-btn'>
-                    <Link className='menu-btn' to='/'><button onClick={()=> setstate(false)} style={{background:'transparent'}}>Home</button></Link>
-                    <Link className='menu-btn' to='/join'><button onClick={()=> setstate(false)} style={{background:'transparent'}}>Join</button></Link>
-                    <Link className='menu-btn' to='/login'><button onClick={()=> setstate(false)} style={{background:'transparent'}}>Login</button></Link>
-                    <Link className='menu-btn' to='/contactus'><button onClick={()=> setstate(false)} style={{background:'transparent'}}>Contact-us</button></Link>
-                    <Link className='menu-btn' to='/blog'><button onClick={()=> setstate(false)} style={{background:'transparent'}}>Blog</button></Link>
-                    <Link className='menu-btn' to='/news'><button onClick={()=> setstate(false)} style={{background:'transparent'}}>News</button></Link>
-                    <Link className='menu-btn' to='/addbusiness'><button onClick={()=> setstate(false)} style={{background:'transparent'}}>Business</button></Link>
-                    <Link className='menu-btn'><button style={{background:'transparent'}} onClick={()=> setstate(false)}>Close</button></Link>
+                    <Link className='menu-btn' onClick={()=> setstate(false)} to='/'><button  style={{background:'transparent'}}>Home</button></Link>
+                    <Link className='menu-btn' onClick={()=> setstate(false)} to='/join'><button  style={{background:'transparent'}}>Join</button></Link>
+                    <Link className='menu-btn' onClick={()=> setstate(false)} to='/login'><button  style={{background:'transparent'}}>Login</button></Link>
+                    <Link className='menu-btn' onClick={()=> setstate(false)} to='/contactus'><button  style={{background:'transparent'}}>Contact Us</button></Link>
+                    <Link className='menu-btn' onClick={()=> setstate(false)} to='/blog'><button  style={{background:'transparent'}}>Blog</button></Link>
+                    <Link className='menu-btn' onClick={()=> setstate(false)} to='/news'><button  style={{background:'transparent'}}>News</button></Link>
+                    <Link className='menu-btn' onClick={()=> setstate(false)} to='/addbusiness'><button  style={{background:'transparent'}}>Business</button></Link>
+                    <Link className='menu-btn' onClick={()=> setstate(false)}><button style={{background:'transparent'}} >Close</button></Link>
                 </div>
             </div>
         </div>

@@ -19,7 +19,7 @@ function Footer() {
                         <p style={{fontFamily:'Bebas Neue', fontSize:'31px', fontWeight:'500', lineHeight: '34px', margin:'0px 0px', }}>USERS</p>
                         <Link style={{textDecoration:'none', color:'inherit'}} to='/login'><p>Login</p></Link>
                         <Link style={{textDecoration:'none', color:'inherit'}} to='/join'><p>Register</p></Link>
-                        <Link style={{textDecoration:'none', color:'inherit'}} to='/addbusiness'><p>Add Your Business</p></Link>
+                        <Link style={{textDecoration:'none', color:'inherit'}} to='/addbusiness'><p>Add Business</p></Link>
                     </div>
                 </div>
                 <div className='social-contact'>
