@@ -6,7 +6,7 @@ function HomePage() {
     return (
         <div className='home-cont'>
             <div className='vid-div'>
-                <video  className='vid' autoPlay loop muted controls>
+                <video  className='vid' autoPlay loop muted playsInline>
                     <source src='/videos/homeVideo.mp4' type='video/mp4'></source>
                 </video>
                 <div className='over-vid'>
