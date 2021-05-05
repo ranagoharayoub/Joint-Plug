@@ -15,7 +15,7 @@ function HomePage() {
                     </div>
                     <div className='vid-search'>
                         <div className='find'>
-                            <p>Find</p>
+                           <p>Find</p>
                         </div>
                         <div className='learn'>
                             <p>Learn</p>
@@ -48,7 +48,7 @@ function HomePage() {
             </div>
             <div className='home-prod'>
                 <div className='our-prod'>
-                    <p>NEWS & EVENTS</p>
+                    <p>NEWS and EVENTS</p>
                 </div>
                 <div className='home-cards'>
                     <div className='home-cards-sec'>
