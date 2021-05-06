@@ -4,21 +4,21 @@ import './HomePage.css'
 
 function HomePage() {
     return (
-        <div className='home-cont'>
+        <div className='home-cont'style={{position: "relative", zIndex:0}}>
             <div className='vid-div'>
-                <video className='vid' autoPlay loop muted playsInline controls style={{objectFit:'cover', height:'100vh'}} >
+                <video className='vid' autoPlay loop muted playsInline controls style={{objectFit:'cover', height:'100vh' }} >
                     <source src='/videos/homeVideo.mp4' type='video/mp4'></source>
                 </video>
                 <div className='over-vid'>
                     <div className='vid-tab'>
-                        <a href="http://jointplug.com/"><button className="joint-btn" style={{textDecoration:'none', color:'inherit',cursor: 'pointer'}}><p>Joint Plug</p></button></a>
+                        <a href="http://jointplug.com/"style={{textDecoration:'none'}}><button className="joint-btn" style={{textDecoration:'none', color:'black',cursor: 'pointer'}}><p>Joint Plug</p></button></a>
                     </div>
                     <div className='vid-search'>
                         <div className='find'>
-                           <p>Find</p>
+                           <button style={{textDecoration:'none', color:'black',cursor: 'pointer', zIndex: 999999999}} className="joint-btn" onClick={()=>{window.location.replace("https://jointplug.com")}}>Find</button>
                         </div>
                         <div className='learn'>
-                            <p>Learn</p>
+                            <button style={{textDecoration:'none', color:'black',cursor: 'pointer', zIndex: 999999999}} className="joint-btn" onClick={()=>{window.location.replace("https://jointplug.com")}}>Learn</button>
                         </div>
                     </div>
                 </div>

@@ -1,65 +1,64 @@
-.topnav{
-    position: sticky;
-    top: 0%;
-    height: 5vh;
-    width: 100%  ;
-    background-color: lightgrey; 
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* overflow-x: hidden;    */
+.topnav {
+  position: sticky;
+  top: 0%;
+  height: 5vh;
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* overflow-x: hidden;    */
+  z-index: 9999999;
 }
 
-
-.topnav > img{
-    height: 24px;
+.topnav > img {
+  height: 24px;
 }
 
-.topnav .slider{
-    position: absolute;
-    right: 0%;
-    top: 5vh;
-    height: 100vh;
-    width: 55vw;
-    /* background-color: lightskyblue; */
-    background-image: url('../Images/client-bg.jpg');
-    display: flex;
-    flex-direction: column;
-    transition: 500ms;
+.topnav .slider {
+  position: absolute;
+  right: 0%;
+  top: 5vh;
+  height: 100vh;
+  width: 55vw;
+  /* background-color: lightskyblue; */
+  background-image: url("../Images/client-bg.jpg");
+  display: flex;
+  flex-direction: column;
+  transition: 500ms;
 }
 
-.topnav .hide{
-    display: none;
-    
+.topnav .hide {
+  display: none;
 }
 
-.slider-btn{
-    margin-top: 20px;
-    height: 90vh;
-    width: 100%;
-    /* background-color: lightslategrey; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* z-index: 100; */
+.slider-btn {
+  margin-top: 20px;
+  height: 90vh;
+  width: 100%;
+  /* background-color: lightslategrey; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* z-index: 100; */
 }
 
-.menu-btn{
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 4px 10px;
-    border: 3px solid  #3AB97E;
-    border-radius: 20px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
-    line-height: 20px;
-    color: #55516a;
-    transition: 1000ms;
-    cursor: pointer;
-    margin: 10px 0px;
-    width: 50%;
-    text-decoration: none;
-    
-    /* background: white; */
+.menu-btn {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 4px 10px;
+  border: 3px solid #3ab97e;
+  border-radius: 20px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  line-height: 20px;
+  color: #55516a;
+  transition: 1000ms;
+  cursor: pointer;
+  margin: 10px 0px;
+  width: 50%;
+  text-decoration: none;
+
+  /* background: white; */
 }
