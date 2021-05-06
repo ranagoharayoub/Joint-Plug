@@ -11,7 +11,7 @@ function HomePage() {
                 </video>
                 <div className='over-vid'>
                     <div className='vid-tab'>
-                        <a href="http://jointplug.com/"> <button className="joint-btn" style={{textDecoration:'none', color:'inherit',cursor: 'pointer'}}><p>Joint Plug</p></button></a>
+                        <a href="http://jointplug.com/"><button className="joint-btn" style={{textDecoration:'none', color:'inherit',cursor: 'pointer'}}><p>Joint Plug</p></button></a>
                     </div>
                     <div className='vid-search'>
                         <div className='find'>
