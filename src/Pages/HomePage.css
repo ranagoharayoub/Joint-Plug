@@ -28,7 +28,7 @@
 
 .over-vid {
   position: absolute;
-  top: 10%;
+  top: 50%;
   left: 50%;
   transform: translateX(-50%);
   height: 130px;
@@ -39,7 +39,7 @@
   justify-content: space-between;
 }
 
-.vid-tab {
+.joint-btn {
   height: 40px;
   width: 100%;
   background-color: white;
@@ -51,6 +51,7 @@
   font-size: 24px;
   line-height: 20px;
   color: #55516a;
+  cursor: pointer;
 }
 
 .vid-search {
@@ -89,7 +90,7 @@
 }
 .disc {
   position: absolute;
-  top: 50%;
+  top: 10%;
   font-size: 48px;
   font-weight: 900;
   line-height: 57px;
@@ -344,13 +345,13 @@
     z-index: -100000;
   }
   .disc {
-    position: absolute;
-    top: 50%;
-    font-size: 18px;
-    font-weight: 900;
-    line-height: 57px;
-    text-align: center;
-    color: white;
-    overflow: hidden;
-  }
+  position: absolute;
+  top: 10%;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 57px;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
 }

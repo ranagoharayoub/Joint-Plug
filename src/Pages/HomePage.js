@@ -6,12 +6,12 @@ function HomePage() {
     return (
         <div className='home-cont'>
             <div className='vid-div'>
-                <video  className='vid' autoPlay loop muted playsInline>
+                <video className='vid' autoPlay loop muted playsInline controls style={{objectFit:'cover', height:'100vh'}} >
                     <source src='/videos/homeVideo.mp4' type='video/mp4'></source>
                 </video>
                 <div className='over-vid'>
                     <div className='vid-tab'>
-                        <p>Joint Plug</p>
+                        <a href="http://jointplug.com/"> <button className="joint-btn" style={{textDecoration:'none', color:'inherit',cursor: 'pointer'}}><p>Joint Plug</p></button></a>
                     </div>
                     <div className='vid-search'>
                         <div className='find'>
