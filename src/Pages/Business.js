@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import BusinessDeals from '../Components/BusinessDeals'
 import BusinessDetail from '../Components/BusinessDetail'
 import BusinessMenu from '../Components/BusinessMenu'
+import BusinessReview from '../Components/BusinessReview'
 import './Business.css'
 function Business() {
     const [active, setactive] = useState('menu')
@@ -31,7 +32,7 @@ function Business() {
                     <button onClick={()=> setactive('menu')} className="bus-tab-1">Menu</button>
                     <button onClick={()=> setactive('detail')} className="bus-tab-2">Detail</button>
                     <button onClick={()=> setactive('deals')} className="bus-tab-2">Deals</button>
-                    <button className="bus-tab-2">Reviews</button>
+                    <button onClick={()=> setactive('review')} className="bus-tab-2">Reviews</button>
                     <button className="bus-tab-2">Photos</button>
                 </div>
             </div>
@@ -39,6 +40,7 @@ function Business() {
                 <BusinessMenu active={active} ></BusinessMenu>
                 <BusinessDetail active={active} ></BusinessDetail>
                 <BusinessDeals active={active} ></BusinessDeals>
+                <BusinessReview active={active}></BusinessReview>
             </div>
         </div>
     )

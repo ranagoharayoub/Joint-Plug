@@ -1,7 +1,7 @@
 .body-div {
   width: 100%;
   height: 100%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
 }
 .bus-left-right {
@@ -13,7 +13,7 @@
 .bus-left {
   width: 25%;
   height: 50vh;
-  background: grey;
+  /* background: grey; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -21,7 +21,7 @@
 .bus-right {
   width: 100%;
   height: 50vh;
-  background: slategrey;
+  /* background: slategrey; */
 }
 .bus-cart {
   width: 90%;
@@ -70,7 +70,7 @@
 .bus-product {
   width: 100%;
   height: 160px;
-  background: burlywood;
+  /* background: burlywood; */
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -78,7 +78,7 @@
 .bus-product-img {
   width: 144px;
   height: 100%;
-  background: cadetblue;
+  /* background: cadetblue; */
 }
 .bus-product-photo {
   width: 142px;
@@ -96,7 +96,7 @@
 .bus-product-detail {
   width: 100%;
   height: 100%;
-  background: chartreuse;
+  /* background: chartreuse; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,7 +104,7 @@
 .bus-product-weight {
   min-width: 15%;
   height: 67px;
-  background: chocolate;
+  /* background: chocolate; */
   display: flex;
   flex-direction: column;
   justify-content: center;

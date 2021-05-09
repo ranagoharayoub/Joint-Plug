@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Business_Menu.css'
+import './BusinessMenu.css'
 
 function BusinessMenu({active}) {
     const [price, setprice] = useState(0)
