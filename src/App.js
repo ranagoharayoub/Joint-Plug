@@ -6,6 +6,7 @@ import ContactUs from './Pages/ContactUs'
 import Blog from './Pages/Blog'
 import News from './Pages/News'
 import AddBusiness from './Pages/AddBusiness'
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,6 +18,7 @@ import { useEffect, useState } from 'react';
 import TopNavbar from './Components/TopNavbar';
 import BottomNavbar from './Components/BottomNavbar';
 import Menu from './Pages/Menu';
+import Business from './Pages/Business';
 
 
 function App() {
@@ -55,6 +57,7 @@ useEffect(() => {
         <Route path='/news' component={News}></Route>
         <Route path='/menu' component={Menu}></Route>
         <Route path='/addbusiness' component={AddBusiness}></Route>
+         <Route path='/Business' component={Business}></Route>
       </Switch>
       <Footer></Footer>
       {
