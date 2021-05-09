@@ -13,7 +13,7 @@ function Navbar() {
             <div className='lower-nav hide-on-mobile'>
                 <div className='left-nav'>
                     <p><Link style={{textDecoration:'none', color:'inherit'}} to='/menu'>MENU</Link></p>
-                    <p><a href='#footer' style={{textDecoration:'none', color:'inherit'}}>LOCATIONS</a></p>
+                    <p><Link to='/business' style={{textDecoration:'none', color:'inherit'}}>Businesses</Link></p>
                     <p><Link to='/contactus' style={{textDecoration:'none', color:'inherit'}}>CONTACT-US</Link></p>
                 </div>
                 <div className='center-nav'>

@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Business_Menu.css'
 
 function BusinessMenu({active}) {
+    const [price, setprice] = useState(0)
     return (
         <div className="body-div" style={active==='menu' ? { display: 'flex'}: {display:'none'}} >
             <div className="bus-left-right">
@@ -15,7 +16,7 @@ function BusinessMenu({active}) {
                                         
                                 </div>
                                 <div className="bus-amount">
-                                    <p>$0</p>
+                                    <p>${price}</p>
                                 </div>
                             </div>
                         </div>
@@ -36,28 +37,30 @@ function BusinessMenu({active}) {
                         <div className="bus-product">
                             <div className="bus-product-img"><img className="bus-product-photo" src="/img/indica.webp" alt="no connection"></img></div>
                             <div className="bus-product-detail">
-                                <div className="bus-prod-heading"><h2>Forest Jack</h2></div>
+                                <div className="bus-prod-heading">
+                                    <h2>Forest Jack</h2>
+                                </div>
                                 <div className="bus-prod-list">
-                                    <div className="bus-product-weight">
+                                    <div onClick={() => setprice(price+30)} className="bus-product-weight">
                                     <p>$30</p>
                                     <p>g</p>
-                                </div>
-                                <div className="bus-product-weight">
-                                    <p>$50</p>
-                                    <p>1/8oz</p>
-                                </div>
-                                <div className="bus-product-weight">
-                                    <p>$80</p>
-                                    <p>1/4oz</p>
-                                </div>
-                                <div className="bus-product-weight">
-                                    <p>$150</p>
-                                    <p>1/2oz</p>
-                                </div>
-                                <div className="bus-product-weight">
-                                    <p>$260</p>
-                                    <p>oz</p>
-                                </div>
+                                    </div>
+                                    <div onClick={() => setprice(price+50)} className="bus-product-weight">
+                                        <p>$50</p>
+                                        <p>1/8oz</p>
+                                    </div>
+                                    <div onClick={() => setprice(price+80)}  className="bus-product-weight">
+                                        <p>$80</p>
+                                        <p>1/4oz</p>
+                                    </div>
+                                    <div onClick={() => setprice(price+150)}  className="bus-product-weight">
+                                        <p>$150</p>
+                                        <p>1/2oz</p>
+                                    </div>
+                                    <div onClick={() => setprice(price+260)}  className="bus-product-weight">
+                                        <p>$260</p>
+                                        <p>oz</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -66,23 +69,23 @@ function BusinessMenu({active}) {
                             <div className="bus-product-detail">
                                 <div className="bus-prod-heading"><h2>Forest Jack</h2></div>
                                 <div className="bus-prod-list">
-                                    <div className="bus-product-weight">
+                                    <div onClick={() => setprice(price+30)}  className="bus-product-weight">
                                     <p>$30</p>
                                     <p>g</p>
                                 </div>
-                                <div className="bus-product-weight">
+                                <div onClick={() => setprice(price+50)}  className="bus-product-weight">
                                     <p>$50</p>
                                     <p>1/8oz</p>
                                 </div>
-                                <div className="bus-product-weight">
+                                <div onClick={() => setprice(price+80)}  className="bus-product-weight">
                                     <p>$80</p>
                                     <p>1/4oz</p>
                                 </div>
-                                <div className="bus-product-weight">
+                                <div onClick={() => setprice(price+180)}  className="bus-product-weight">
                                     <p>$150</p>
                                     <p>1/2oz</p>
                                 </div>
-                                <div className="bus-product-weight">
+                                <div onClick={() => setprice(price+260)}  className="bus-product-weight">
                                     <p>$260</p>
                                     <p>oz</p>
                                 </div>
@@ -94,23 +97,23 @@ function BusinessMenu({active}) {
                             <div className="bus-product-detail">
                                 <div className="bus-prod-heading"><h2>Get High</h2></div>
                                 <div className="bus-prod-list">
-                                    <div className="bus-product-weight">
+                                    <div onClick={() => setprice(price+6.25)}  className="bus-product-weight">
                                     <p>$6.25</p>
                                     <p>g</p>
                                 </div>
-                                <div className="bus-product-weight">
+                                <div onClick={() => setprice(price+12.50)}  className="bus-product-weight">
                                     <p>$12.50</p>
                                     <p>1/8oz</p>
                                 </div>
-                                <div className="bus-product-weight">
+                                <div onClick={() => setprice(price+25)}  className="bus-product-weight">
                                     <p>$25</p>
                                     <p>1/4oz</p>
                                 </div>
-                                <div className="bus-product-weight">
+                                <div onClick={() => setprice(price+50)}  className="bus-product-weight">
                                     <p>$50</p>
                                     <p>1/2oz</p>
                                 </div>
-                                <div className="bus-product-weight">
+                                <div onClick={() => setprice(price+100)}  className="bus-product-weight">
                                     <p>$100</p>
                                     <p>oz</p>
                                 </div>

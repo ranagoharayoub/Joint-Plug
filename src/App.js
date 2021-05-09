@@ -57,7 +57,7 @@ useEffect(() => {
         <Route path='/news' component={News}></Route>
         <Route path='/menu' component={Menu}></Route>
         <Route path='/addbusiness' component={AddBusiness}></Route>
-         <Route path='/Business' component={Business}></Route>
+         <Route path='/business' component={Business}></Route>
       </Switch>
       <Footer></Footer>
       {
