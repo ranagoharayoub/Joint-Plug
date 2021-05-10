@@ -1,7 +1,7 @@
 .business-cont {
   min-height: 100vh;
   width: 100%;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,14 +11,18 @@
 .business-cont .bus-upper {
   min-height: 30vh;
   width: 80%;
-  background-color: skyblue;
+  /* background-color: skyblue; */
   display: flex;
   flex-direction: column;
 }
 .bus-back-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 15px;
+  line-height: 21.42px;
   background: transparent;
   font-size: large;
   cursor: pointer;
+  padding-bottom: 20px;
 }
 .bus-image-rating {
   display: flex;
@@ -27,10 +31,14 @@
 .bus-image {
   width: 144px;
   height: 144px;
-  border: solid red 2px;
+  border: solid gray 2px;
   padding: 5px;
 }
 .business-para {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  line-height: 21.42px;
   margin-left: 10px;
 }
 .business-img {
@@ -41,27 +49,52 @@
 .business-cont .bus-lower {
   flex: 1;
   width: 80%;
-  background-color: slateblue;
+  /* background-color: slateblue; */
   display: flex;
   min-height: 100vh;
 }
 .bus-tabs {
   width: 100%;
   border-bottom: solid black 2px;
+  margin-top: 10px;
 }
 .bus-tab-1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
   background: transparent;
   padding: 20px 20px 20px 10px;
   cursor: pointer;
+  font-weight: bold;
+}
+.bus-tabs :hover:active{
+  /* font-weight: bold; */
 }
 .bus-tab-2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
   background: transparent;
   padding: 20px;
   cursor: pointer;
+  font-weight: bold;
 }
 .bus-tab-1:hover {
   color: green;
 }
 .bus-tab-2:hover {
   color: green;
+}
+@media only screen and (max-width: 426px){
+  .bus-tabs{
+    display: flex;
+    justify-content: space-between;
+  }
+  .bus-tab-1{
+    padding: 0px;
+  }
+  .bus-tab-2 {
+    padding: 0px;
+  }
+  .business-para{
+    font-size: medium;
+  }
 }

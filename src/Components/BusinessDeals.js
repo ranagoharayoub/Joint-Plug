@@ -5,7 +5,7 @@ function BusinessDeals({active}) {
         <div className="deals-cont" style={active==='deals' ? {display:'flex'} : {display:'none'}}>
             <div className="deals-box">
                 <h2 className="deal">Deal Box</h2>
-                <img src="/img/jack.png" alt="deal box"></img>
+                <img className="deal-img" src="/img/jack.png" alt="deal box"></img>
                 <div className="deal-btm-box">
                     <p className="btm-txt">
                         New Flavour

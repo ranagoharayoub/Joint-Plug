@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import BusinessDeals from '../Components/BusinessDeals'
 import BusinessDetail from '../Components/BusinessDetail'
 import BusinessMenu from '../Components/BusinessMenu'
+import BusinessPhoto from '../Components/BusinessPhoto'
 import BusinessReview from '../Components/BusinessReview'
 import './Business.css'
 function Business() {
@@ -33,7 +34,7 @@ function Business() {
                     <button onClick={()=> setactive('detail')} className="bus-tab-2">Detail</button>
                     <button onClick={()=> setactive('deals')} className="bus-tab-2">Deals</button>
                     <button onClick={()=> setactive('review')} className="bus-tab-2">Reviews</button>
-                    <button className="bus-tab-2">Photos</button>
+                    <button onClick={()=> setactive('photos')} className="bus-tab-2">Photos</button>
                 </div>
             </div>
             <div className='bus-lower'>
@@ -41,6 +42,7 @@ function Business() {
                 <BusinessDetail active={active} ></BusinessDetail>
                 <BusinessDeals active={active} ></BusinessDeals>
                 <BusinessReview active={active}></BusinessReview>
+                <BusinessPhoto active={active}></BusinessPhoto>
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 .body-div {
   width: 100%;
-  height: 100%;
+  height: auto;
   /* background-color: red; */
   display: flex;
 }
@@ -12,7 +12,7 @@
 }
 .bus-left {
   width: 25%;
-  height: 50vh;
+  height: auto;
   /* background: grey; */
   display: flex;
   align-items: center;
@@ -20,15 +20,19 @@
 }
 .bus-right {
   width: 100%;
-  height: 50vh;
+  height: auto;
   /* background: slategrey; */
 }
 .bus-cart {
   width: 90%;
   height: 12%;
-  border: solid red 2px;
+  border: solid black 1px;
   border-radius: 5px;
   /* border-top: none; */
+  font-family: "Raleway", sans-serif;
+  font-weight: 16px;
+  line-height: 21.42px;
+  font-weight: bold;
 }
 .bus-item-amount {
   display: flex;
@@ -74,10 +78,14 @@
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
+  border: solid black 1px;
+  border-radius: 5px;
 }
 .bus-product-img {
   width: 144px;
   height: 100%;
+  border: black 1px;
+  margin-left: 2px;
   /* background: cadetblue; */
 }
 .bus-product-photo {
@@ -112,4 +120,89 @@
   border: solid black 1px;
   border-radius: 5px;
   cursor: pointer;
+}
+.flavor{
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.prods{
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+@media only screen and (max-width: 426px){
+  .bus-left-right{
+    flex-direction: column;
+  }
+  .bus-left{
+    width: 100%;
+  }
+  .bus-cart{
+    width: 100%;
+    height: 45%;
+  }
+  .bus-search{
+    width: 100%;
+    height: 20%;
+  }
+  .bus-options {
+    width: 100%;
+    height: 5%;
+    margin-top: 1%;
+}
+  .bus-right{
+    margin-top: 10px;
+  }
+  .bus-product-img {
+    width: 70px;
+    height: 100%;
+    border: black 1px;
+    /* margin-left: 2px; */
+    /* background: cadetblue; */
+    display: flex;
+    align-items: center;
+}
+.bus-product-photo {
+    width: 70px;
+    height: 50%;
+}
+.bus-product {
+  width: 100%;
+  height: 110px;
+  /* background: burlywood; */
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid black 1px;
+  border-radius: 5px;
+}
+.bus-product-weight {
+    min-width: 15%;
+    height: 46px;
+    /* background: chocolate; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bus-g{
+  font-family: "Raleway", sans-serif;
+  font-size: 11px;
+}
+.business-para{
+  font-size: medium;
+}
+.business-para {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    line-height: 21.42px;
+    margin-left: 10px;
+}
 }

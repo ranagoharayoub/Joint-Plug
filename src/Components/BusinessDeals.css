@@ -2,39 +2,81 @@
     width: 100%;
     height: auto;
     display: flex;
-    background-color: darkgoldenrod;
+    /* background-color: darkgoldenrod; */
     text-align: center;
     flex-direction: column;
     align-items: center;
 }
 .deals-box{
-    width: 500px;
-    height: 588px;
-    background-color: crimson;
+    width: 100%;
+    height: auto;
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+}
+.deal{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+}
+.deal-img{
+    width: 100%;
+    height: auto;
 }
 .deal-btm-box{
     width: 100%;
     height: 36px;
-    border: solid black 1px;
-    background-color: darkmagenta;
+    /* border: solid black 1px; */
+    /* background-color: darkmagenta; */
     display: flex;
     text-align: center;
     justify-content: center;
 }
+.btm-txt{
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+}
 .detail-box{
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    height: auto;
     border: solid black 1px;
+    /* background-color: orange; */
+    border-radius: 5px;
 }
 .detail-left{
-    width: 33.3%;
-    border: solid black 1px;
+   
+    font-family: "Raleway", sans-serif;
+    border-radius: 5px;
 }
 .detail-center{
-    width: 33.3%;
-     border: solid black 1px;
+  
+     font-family: "Raleway", sans-serif;
+     border-radius: 5px;
 }
 .detail-right{
-    width: 33.3%;
-    border: solid black 1px;
+   
+    font-family: "Raleway", sans-serif;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 426px){
+    .deal-img{
+        width: 100%;
+        height: auto;
+    }
+    .deal{
+        margin-left: 0px;
+    }
+    .deals-box{
+    width: 100%;
+    height: auto;
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }

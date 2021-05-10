@@ -7,7 +7,7 @@ function HomePage() {
         <div className='home-cont'style={{position: "relative", zIndex:0}}>
             <div className='vid-div'>
                 <video className='vid' autoPlay loop muted playsInline controls style={{objectFit:'cover', height:'100vh' }} >
-                    <source src='/videos/homeVideo.mp4' type='video/mp4'></source>
+                    <source src='/videos/1.mp4' type='video/mp4'></source>
                 </video>
                 <div className='over-vid'>
                     <div className='vid-tab'>

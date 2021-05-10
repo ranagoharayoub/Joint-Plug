@@ -1,0 +1,11 @@
+.photos-cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.photos-img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
