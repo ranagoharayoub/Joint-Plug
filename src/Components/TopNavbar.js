@@ -22,8 +22,10 @@ function TopNavbar() {
                     <Link className='menu-btn' onClick={()=> setstate(false)} to='/contactus'><button  style={{background:'transparent'}}>Contact Us</button></Link>
                     <Link className='menu-btn' onClick={()=> setstate(false)} to='/blog'><button  style={{background:'transparent'}}>Blog</button></Link>
                     <Link className='menu-btn' onClick={()=> setstate(false)} to='/news'><button  style={{background:'transparent'}}>News</button></Link>
-                    <Link className='menu-btn' onClick={()=> setstate(false)} to='/addbusiness'><button  style={{background:'transparent'}}>Business</button></Link>
+                    <Link className='menu-btn' onClick={()=> setstate(false)} to='/addbusiness'><button  style={{background:'transparent'}}>Add Business</button></Link>
+                    <Link className='menu-btn' onClick={()=> setstate(false)} to='/business'><button  style={{background:'transparent'}}>Business</button></Link>
                     <Link className='menu-btn' onClick={()=> setstate(false)}><button style={{background:'transparent'}} >Close</button></Link>
+                    
                 </div>
             </div>
         </div>

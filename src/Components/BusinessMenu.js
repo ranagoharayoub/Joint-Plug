@@ -3,6 +3,7 @@ import './BusinessMenu.css'
 
 function BusinessMenu({active}) {
     const [price, setprice] = useState(0)
+    const [item, setitem] = useState(0)
     return (
         <div className="body-div" style={active==='menu' ? { display: 'flex'}: {display:'none'}} >
             <div className="bus-left-right">
@@ -12,7 +13,7 @@ function BusinessMenu({active}) {
                             <div className="bus-item-amount">
                                 <div className="bus-item">
                                     <p>
-                                        <i class="fas fa-shopping-cart"></i>&#9;0 items</p>
+                                        <i class="fas fa-shopping-cart"></i>&#9;{item} items</p>
                                 </div>
                                 <div className="bus-amount">
                                     <p>${price}</p>
@@ -40,23 +41,23 @@ function BusinessMenu({active}) {
                                     <h2 className="flavor">Forest Jack</h2>
                                 </div>
                                 <div className="bus-prod-list">
-                                    <div onClick={() => setprice(price+30)} className="bus-product-weight">
+                                    <div onClick={() => {setprice(price+30); setitem(item+1)} } className="bus-product-weight">
                                     <p className="bus-g">$30</p>
                                     <p className="bus-g">g</p>
                                     </div>
-                                    <div onClick={() => setprice(price+50)} className="bus-product-weight">
+                                    <div onClick={() => {setitem(item+1); setprice(price+50)} } className="bus-product-weight">
                                         <p className="bus-g">$50</p>
                                         <p className="bus-g">1/8oz</p>
                                     </div>
-                                    <div onClick={() => setprice(price+80)}  className="bus-product-weight">
+                                    <div onClick={() => {setitem(item+1); setprice(price+80)} }  className="bus-product-weight">
                                         <p className="bus-g">$80</p>
                                         <p className="bus-g">1/4oz</p>
                                     </div>
-                                    <div onClick={() => setprice(price+150)}  className="bus-product-weight">
+                                    <div onClick={() => {setitem(item+1); setprice(price+150)} }  className="bus-product-weight">
                                         <p className="bus-g">$150</p>
                                         <p className="bus-g">1/2oz</p>
                                     </div>
-                                    <div onClick={() => setprice(price+260)}  className="bus-product-weight">
+                                    <div onClick={() => {setitem(item+1); setprice(price+260)} }  className="bus-product-weight">
                                         <p className="bus-g">$260</p>
                                         <p className="bus-g">oz</p>
                                     </div>
@@ -68,23 +69,23 @@ function BusinessMenu({active}) {
                             <div className="bus-product-detail">
                                 <div className="bus-prod-heading"><h2 className="flavor">Forest Jack</h2></div>
                                 <div className="bus-prod-list">
-                                    <div onClick={() => setprice(price+30)}  className="bus-product-weight">
+                                    <div onClick={() => {setitem(item+1); setprice(price+260)} }  className="bus-product-weight">
                                     <p className="bus-g">$30</p>
                                     <p className="bus-g">g</p>
                                 </div>
-                                <div onClick={() => setprice(price+50)}  className="bus-product-weight">
+                                <div onClick={() => {setitem(item+1); setprice(price+260)} } className="bus-product-weight">
                                     <p className="bus-g">$50</p>
                                     <p className="bus-g">1/8oz</p>
                                 </div>
-                                <div onClick={() => setprice(price+80)}  className="bus-product-weight">
+                                <div onClick={() => {setitem(item+1); setprice(price+260)} } className="bus-product-weight">
                                     <p className="bus-g">$80</p>
                                     <p className="bus-g">1/4oz</p>
                                 </div>
-                                <div onClick={() => setprice(price+180)}  className="bus-product-weight">
+                                <div  onClick={() => {setitem(item+1); setprice(price+260)} } className="bus-product-weight">
                                     <p className="bus-g">$150</p>
                                     <p className="bus-g">1/2oz</p>
                                 </div>
-                                <div onClick={() => setprice(price+260)}  className="bus-product-weight">
+                                <div  onClick={() => {setitem(item+1); setprice(price+260)} } className="bus-product-weight">
                                     <p className="bus-g">$260</p>
                                     <p className="bus-g">oz</p>
                                 </div>
@@ -96,23 +97,23 @@ function BusinessMenu({active}) {
                             <div className="bus-product-detail">
                                 <div className="bus-prod-heading"><h2 className="flavor">Get High</h2></div>
                                 <div className="bus-prod-list">
-                                    <div onClick={() => setprice(price+6.25)}  className="bus-product-weight">
+                                    <div  onClick={() => {setitem(item+1); setprice(price+6.25)} } className="bus-product-weight">
                                     <p className="bus-g">$6.25</p>
                                     <p className="bus-g">g</p>
                                 </div>
-                                <div onClick={() => setprice(price+12.50)}  className="bus-product-weight">
+                                <div onClick={() => {setitem(item+1); setprice(price+12.50)} } className="bus-product-weight">
                                     <p className="bus-g">$12.50</p>
                                     <p className="bus-g">1/8oz</p>
                                 </div>
-                                <div onClick={() => setprice(price+25)}  className="bus-product-weight">
+                                <div onClick={() => {setitem(item+1); setprice(price+25)} } className="bus-product-weight">
                                     <p className="bus-g">$25</p>
                                     <p className="bus-g">1/4oz</p>
                                 </div>
-                                <div onClick={() => setprice(price+50)}  className="bus-product-weight">
+                                <div onClick={() => {setitem(item+1); setprice(price+50)} } className="bus-product-weight">
                                     <p className="bus-g">$50</p>
                                     <p className="bus-g">1/2oz</p>
                                 </div>
-                                <div onClick={() => setprice(price+100)}  className="bus-product-weight">
+                                <div onClick={() => {setitem(item+1); setprice(price+100)} } className="bus-product-weight">
                                     <p className="bus-g">$100</p>
                                     <p className="bus-g">oz</p>
                                 </div>
